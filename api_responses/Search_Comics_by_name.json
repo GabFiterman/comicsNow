@@ -1,0 +1,2550 @@
+{
+    "request": "https://gateway.marvel.com:443/v1/public/comics?format=comic&titleStartsWith=x-man&ts=1&apikey=b4d03af436bbbf7ddc36746675e1d542&hash=26bd2ea24ca37deb90fd9b2803e087b4",
+	"code": 200,
+	"status": "Ok",
+	"copyright": "© 2022 MARVEL",
+	"attributionText": "Data provided by Marvel. © 2022 MARVEL",
+	"attributionHTML": "<a href=\"http://marvel.com\">Data provided by Marvel. © 2022 MARVEL</a>",
+	"etag": "1d31dae23598deb804c7dc1e7ce4c6459866c6c0",
+	"data": {
+		"offset": 0,
+		"limit": 20,
+		"total": 65,
+		"count": 20,
+		"results": [
+			{
+				"id": 18244,
+				"digitalId": 11848,
+				"title": "X-Man (1995) #70",
+				"issueNumber": 70,
+				"variantDescription": "",
+				"description": null,
+				"modified": "2016-06-27T13:32:04-0400",
+				"isbn": "",
+				"upc": "75960604204307011",
+				"diamondCode": "",
+				"ean": "",
+				"issn": "",
+				"format": "Comic",
+				"pageCount": 0,
+				"textObjects": [],
+				"resourceURI": "http://gateway.marvel.com/v1/public/comics/18244",
+				"urls": [
+					{
+						"type": "detail",
+						"url": "http://marvel.com/comics/issue/18244/x-man_1995_70?utm_campaign=apiRef&utm_source=b4d03af436bbbf7ddc36746675e1d542"
+					},
+					{
+						"type": "reader",
+						"url": "http://marvel.com/digitalcomics/view.htm?iid=11848&utm_campaign=apiRef&utm_source=b4d03af436bbbf7ddc36746675e1d542"
+					}
+				],
+				"series": {
+					"resourceURI": "http://gateway.marvel.com/v1/public/series/3643",
+					"name": "X-Man (1995 - 2000)"
+				},
+				"variants": [],
+				"collections": [
+					{
+						"resourceURI": "http://gateway.marvel.com/v1/public/comics/22607",
+						"name": "Counter X Vol. 3 (Trade Paperback)"
+					}
+				],
+				"collectedIssues": [],
+				"dates": [
+					{
+						"type": "onsaleDate",
+						"date": "2000-12-01T00:00:00-0500"
+					},
+					{
+						"type": "focDate",
+						"date": "-0001-11-30T00:00:00-0500"
+					},
+					{
+						"type": "unlimitedDate",
+						"date": "2008-01-01T00:00:00-0500"
+					}
+				],
+				"prices": [
+					{
+						"type": "printPrice",
+						"price": 1.99
+					}
+				],
+				"thumbnail": {
+					"path": "http://i.annihil.us/u/prod/marvel/i/mg/c/e0/57718f3eaca9e",
+					"extension": "jpg"
+				},
+				"images": [
+					{
+						"path": "http://i.annihil.us/u/prod/marvel/i/mg/c/e0/57718f3eaca9e",
+						"extension": "jpg"
+					}
+				],
+				"creators": {
+					"available": 0,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18244/creators",
+					"items": [],
+					"returned": 0
+				},
+				"characters": {
+					"available": 1,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18244/characters",
+					"items": [
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/characters/1009725",
+							"name": "X-Man"
+						}
+					],
+					"returned": 1
+				},
+				"stories": {
+					"available": 3,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18244/stories",
+					"items": [
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/stories/38802",
+							"name": "",
+							"type": ""
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/stories/67811",
+							"name": "X-Man 70 cover",
+							"type": "cover"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/stories/162469",
+							"name": "story from X-Man (1995) #70",
+							"type": "interiorStory"
+						}
+					],
+					"returned": 3
+				},
+				"events": {
+					"available": 0,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18244/events",
+					"items": [],
+					"returned": 0
+				}
+			},
+			{
+				"id": 18242,
+				"digitalId": 11847,
+				"title": "X-Man (1995) #69",
+				"issueNumber": 69,
+				"variantDescription": "",
+				"description": "The most epic X-Man tale to date continues as Nate Grey suddenly finds himself face-to-face with...himself?! Startling secrets will be revealed and lives will be lost in the penultimate chapter to Shockwave.",
+				"modified": "2019-07-26T17:00:23-0400",
+				"isbn": "",
+				"upc": "75960604204306911",
+				"diamondCode": "",
+				"ean": "",
+				"issn": "",
+				"format": "Comic",
+				"pageCount": 0,
+				"textObjects": [
+					{
+						"type": "issue_solicit_text",
+						"language": "en-us",
+						"text": "The most epic X-Man tale to date continues as Nate Grey suddenly finds himself face-to-face with...himself?! Startling secrets will be revealed and lives will be lost in the penultimate chapter to Shockwave."
+					}
+				],
+				"resourceURI": "http://gateway.marvel.com/v1/public/comics/18242",
+				"urls": [
+					{
+						"type": "detail",
+						"url": "http://marvel.com/comics/issue/18242/x-man_1995_69?utm_campaign=apiRef&utm_source=b4d03af436bbbf7ddc36746675e1d542"
+					},
+					{
+						"type": "reader",
+						"url": "http://marvel.com/digitalcomics/view.htm?iid=11847&utm_campaign=apiRef&utm_source=b4d03af436bbbf7ddc36746675e1d542"
+					}
+				],
+				"series": {
+					"resourceURI": "http://gateway.marvel.com/v1/public/series/3643",
+					"name": "X-Man (1995 - 2000)"
+				},
+				"variants": [],
+				"collections": [
+					{
+						"resourceURI": "http://gateway.marvel.com/v1/public/comics/22607",
+						"name": "Counter X Vol. 3 (Trade Paperback)"
+					}
+				],
+				"collectedIssues": [],
+				"dates": [
+					{
+						"type": "onsaleDate",
+						"date": "2000-11-01T00:00:00-0500"
+					},
+					{
+						"type": "focDate",
+						"date": "-0001-11-30T00:00:00-0500"
+					},
+					{
+						"type": "unlimitedDate",
+						"date": "2008-01-01T00:00:00-0500"
+					}
+				],
+				"prices": [
+					{
+						"type": "printPrice",
+						"price": 1.99
+					}
+				],
+				"thumbnail": {
+					"path": "http://i.annihil.us/u/prod/marvel/i/mg/6/00/5d3772bc4a351",
+					"extension": "jpg"
+				},
+				"images": [
+					{
+						"path": "http://i.annihil.us/u/prod/marvel/i/mg/6/00/5d3772bc4a351",
+						"extension": "jpg"
+					}
+				],
+				"creators": {
+					"available": 3,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18242/creators",
+					"items": [
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/676",
+							"name": "Warren Ellis",
+							"role": "writer"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/1293",
+							"name": "Steven Grant",
+							"role": "writer"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/1082",
+							"name": "Ariel Olivetti",
+							"role": "penciller"
+						}
+					],
+					"returned": 3
+				},
+				"characters": {
+					"available": 0,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18242/characters",
+					"items": [],
+					"returned": 0
+				},
+				"stories": {
+					"available": 3,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18242/stories",
+					"items": [
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/stories/38799",
+							"name": "",
+							"type": ""
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/stories/67809",
+							"name": "X-Man 69 cover",
+							"type": "cover"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/stories/162468",
+							"name": "story from X-Man (1995) #69",
+							"type": "interiorStory"
+						}
+					],
+					"returned": 3
+				},
+				"events": {
+					"available": 0,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18242/events",
+					"items": [],
+					"returned": 0
+				}
+			},
+			{
+				"id": 18241,
+				"digitalId": 11846,
+				"title": "X-Man (1995) #68",
+				"issueNumber": 68,
+				"variantDescription": "",
+				"description": "Madelyne Pryor - Empress of Earth! In this dystopian parallel Earth, Nate Grey manages to escape, and meet his only hope for survival - in a very unexpected form!",
+				"modified": "2019-07-26T16:59:52-0400",
+				"isbn": "",
+				"upc": "75960604204306811",
+				"diamondCode": "",
+				"ean": "",
+				"issn": "",
+				"format": "Comic",
+				"pageCount": 0,
+				"textObjects": [
+					{
+						"type": "issue_solicit_text",
+						"language": "en-us",
+						"text": "Madelyne Pryor - Empress of Earth! In this dystopian parallel Earth, Nate Grey manages to escape, and meet his only hope for survival - in a very unexpected form!"
+					}
+				],
+				"resourceURI": "http://gateway.marvel.com/v1/public/comics/18241",
+				"urls": [
+					{
+						"type": "detail",
+						"url": "http://marvel.com/comics/issue/18241/x-man_1995_68?utm_campaign=apiRef&utm_source=b4d03af436bbbf7ddc36746675e1d542"
+					},
+					{
+						"type": "reader",
+						"url": "http://marvel.com/digitalcomics/view.htm?iid=11846&utm_campaign=apiRef&utm_source=b4d03af436bbbf7ddc36746675e1d542"
+					}
+				],
+				"series": {
+					"resourceURI": "http://gateway.marvel.com/v1/public/series/3643",
+					"name": "X-Man (1995 - 2000)"
+				},
+				"variants": [],
+				"collections": [
+					{
+						"resourceURI": "http://gateway.marvel.com/v1/public/comics/22607",
+						"name": "Counter X Vol. 3 (Trade Paperback)"
+					}
+				],
+				"collectedIssues": [],
+				"dates": [
+					{
+						"type": "onsaleDate",
+						"date": "2000-10-01T00:00:00-0400"
+					},
+					{
+						"type": "focDate",
+						"date": "-0001-11-30T00:00:00-0500"
+					},
+					{
+						"type": "unlimitedDate",
+						"date": "2008-01-01T00:00:00-0500"
+					}
+				],
+				"prices": [
+					{
+						"type": "printPrice",
+						"price": 1.99
+					}
+				],
+				"thumbnail": {
+					"path": "http://i.annihil.us/u/prod/marvel/i/mg/6/50/5d3772b436ed0",
+					"extension": "jpg"
+				},
+				"images": [
+					{
+						"path": "http://i.annihil.us/u/prod/marvel/i/mg/6/50/5d3772b436ed0",
+						"extension": "jpg"
+					}
+				],
+				"creators": {
+					"available": 3,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18241/creators",
+					"items": [
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/676",
+							"name": "Warren Ellis",
+							"role": "writer"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/1293",
+							"name": "Steven Grant",
+							"role": "writer"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/1082",
+							"name": "Ariel Olivetti",
+							"role": "penciller (cover)"
+						}
+					],
+					"returned": 3
+				},
+				"characters": {
+					"available": 0,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18241/characters",
+					"items": [],
+					"returned": 0
+				},
+				"stories": {
+					"available": 3,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18241/stories",
+					"items": [
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/stories/38798",
+							"name": "",
+							"type": ""
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/stories/67808",
+							"name": "X-Man 68 cover",
+							"type": "cover"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/stories/162467",
+							"name": "story from X-Man (1995) #68",
+							"type": "interiorStory"
+						}
+					],
+					"returned": 3
+				},
+				"events": {
+					"available": 0,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18241/events",
+					"items": [],
+					"returned": 0
+				}
+			},
+			{
+				"id": 18240,
+				"digitalId": 11845,
+				"title": "X-Man (1995) #67",
+				"issueNumber": 67,
+				"variantDescription": "",
+				"description": "Stranded on an alternate Earth! Madelyne Pryor has tipped her hand, and revealed that Nate is completely under her control! But even if he knows the truth, is there any way Nate can free himself?",
+				"modified": "2019-07-26T16:56:50-0400",
+				"isbn": "",
+				"upc": "75960604204306711",
+				"diamondCode": "",
+				"ean": "",
+				"issn": "",
+				"format": "Comic",
+				"pageCount": 0,
+				"textObjects": [
+					{
+						"type": "issue_solicit_text",
+						"language": "en-us",
+						"text": "Stranded on an alternate Earth! Madelyne Pryor has tipped her hand, and revealed that Nate is completely under her control! But even if he knows the truth, is there any way Nate can free himself?"
+					}
+				],
+				"resourceURI": "http://gateway.marvel.com/v1/public/comics/18240",
+				"urls": [
+					{
+						"type": "detail",
+						"url": "http://marvel.com/comics/issue/18240/x-man_1995_67?utm_campaign=apiRef&utm_source=b4d03af436bbbf7ddc36746675e1d542"
+					},
+					{
+						"type": "reader",
+						"url": "http://marvel.com/digitalcomics/view.htm?iid=11845&utm_campaign=apiRef&utm_source=b4d03af436bbbf7ddc36746675e1d542"
+					}
+				],
+				"series": {
+					"resourceURI": "http://gateway.marvel.com/v1/public/series/3643",
+					"name": "X-Man (1995 - 2000)"
+				},
+				"variants": [],
+				"collections": [
+					{
+						"resourceURI": "http://gateway.marvel.com/v1/public/comics/22607",
+						"name": "Counter X Vol. 3 (Trade Paperback)"
+					}
+				],
+				"collectedIssues": [],
+				"dates": [
+					{
+						"type": "onsaleDate",
+						"date": "2000-09-01T00:00:00-0400"
+					},
+					{
+						"type": "focDate",
+						"date": "-0001-11-30T00:00:00-0500"
+					},
+					{
+						"type": "unlimitedDate",
+						"date": "2008-01-01T00:00:00-0500"
+					}
+				],
+				"prices": [
+					{
+						"type": "printPrice",
+						"price": 1.99
+					}
+				],
+				"thumbnail": {
+					"path": "http://i.annihil.us/u/prod/marvel/i/mg/e/80/5d37727718497",
+					"extension": "jpg"
+				},
+				"images": [
+					{
+						"path": "http://i.annihil.us/u/prod/marvel/i/mg/e/80/5d37727718497",
+						"extension": "jpg"
+					}
+				],
+				"creators": {
+					"available": 3,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18240/creators",
+					"items": [
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/676",
+							"name": "Warren Ellis",
+							"role": "writer"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/1293",
+							"name": "Steven Grant",
+							"role": "writer"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/1082",
+							"name": "Ariel Olivetti",
+							"role": "penciller (cover)"
+						}
+					],
+					"returned": 3
+				},
+				"characters": {
+					"available": 1,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18240/characters",
+					"items": [
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/characters/1009726",
+							"name": "X-Men"
+						}
+					],
+					"returned": 1
+				},
+				"stories": {
+					"available": 3,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18240/stories",
+					"items": [
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/stories/38797",
+							"name": "",
+							"type": ""
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/stories/67807",
+							"name": "X-Man 67 cover",
+							"type": "cover"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/stories/162466",
+							"name": "story from X-Man (1995) #67",
+							"type": "interiorStory"
+						}
+					],
+					"returned": 3
+				},
+				"events": {
+					"available": 0,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18240/events",
+					"items": [],
+					"returned": 0
+				}
+			},
+			{
+				"id": 18239,
+				"digitalId": 11844,
+				"title": "X-Man (1995) #66",
+				"issueNumber": 66,
+				"variantDescription": "",
+				"description": null,
+				"modified": "2016-06-27T13:28:14-0400",
+				"isbn": "",
+				"upc": "75960604204306611",
+				"diamondCode": "",
+				"ean": "",
+				"issn": "",
+				"format": "Comic",
+				"pageCount": 0,
+				"textObjects": [],
+				"resourceURI": "http://gateway.marvel.com/v1/public/comics/18239",
+				"urls": [
+					{
+						"type": "detail",
+						"url": "http://marvel.com/comics/issue/18239/x-man_1995_66?utm_campaign=apiRef&utm_source=b4d03af436bbbf7ddc36746675e1d542"
+					},
+					{
+						"type": "reader",
+						"url": "http://marvel.com/digitalcomics/view.htm?iid=11844&utm_campaign=apiRef&utm_source=b4d03af436bbbf7ddc36746675e1d542"
+					}
+				],
+				"series": {
+					"resourceURI": "http://gateway.marvel.com/v1/public/series/3643",
+					"name": "X-Man (1995 - 2000)"
+				},
+				"variants": [],
+				"collections": [
+					{
+						"resourceURI": "http://gateway.marvel.com/v1/public/comics/22607",
+						"name": "Counter X Vol. 3 (Trade Paperback)"
+					}
+				],
+				"collectedIssues": [],
+				"dates": [
+					{
+						"type": "onsaleDate",
+						"date": "2000-08-01T00:00:00-0400"
+					},
+					{
+						"type": "focDate",
+						"date": "-0001-11-30T00:00:00-0500"
+					},
+					{
+						"type": "unlimitedDate",
+						"date": "2008-01-01T00:00:00-0500"
+					}
+				],
+				"prices": [
+					{
+						"type": "printPrice",
+						"price": 1.99
+					}
+				],
+				"thumbnail": {
+					"path": "http://i.annihil.us/u/prod/marvel/i/mg/a/10/57718ebf74b5e",
+					"extension": "jpg"
+				},
+				"images": [
+					{
+						"path": "http://i.annihil.us/u/prod/marvel/i/mg/a/10/57718ebf74b5e",
+						"extension": "jpg"
+					}
+				],
+				"creators": {
+					"available": 0,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18239/creators",
+					"items": [],
+					"returned": 0
+				},
+				"characters": {
+					"available": 1,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18239/characters",
+					"items": [
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/characters/1009725",
+							"name": "X-Man"
+						}
+					],
+					"returned": 1
+				},
+				"stories": {
+					"available": 3,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18239/stories",
+					"items": [
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/stories/38796",
+							"name": "",
+							"type": ""
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/stories/67806",
+							"name": "X-Man 66 cover",
+							"type": "cover"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/stories/162465",
+							"name": "story from X-Man (1995) #66",
+							"type": "interiorStory"
+						}
+					],
+					"returned": 3
+				},
+				"events": {
+					"available": 0,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18239/events",
+					"items": [],
+					"returned": 0
+				}
+			},
+			{
+				"id": 18238,
+				"digitalId": 11843,
+				"title": "X-Man (1995) #65",
+				"issueNumber": 65,
+				"variantDescription": "",
+				"description": null,
+				"modified": "2016-06-27T13:27:10-0400",
+				"isbn": "",
+				"upc": "75960604204306511",
+				"diamondCode": "",
+				"ean": "",
+				"issn": "",
+				"format": "Comic",
+				"pageCount": 0,
+				"textObjects": [],
+				"resourceURI": "http://gateway.marvel.com/v1/public/comics/18238",
+				"urls": [
+					{
+						"type": "detail",
+						"url": "http://marvel.com/comics/issue/18238/x-man_1995_65?utm_campaign=apiRef&utm_source=b4d03af436bbbf7ddc36746675e1d542"
+					},
+					{
+						"type": "reader",
+						"url": "http://marvel.com/digitalcomics/view.htm?iid=11843&utm_campaign=apiRef&utm_source=b4d03af436bbbf7ddc36746675e1d542"
+					}
+				],
+				"series": {
+					"resourceURI": "http://gateway.marvel.com/v1/public/series/3643",
+					"name": "X-Man (1995 - 2000)"
+				},
+				"variants": [],
+				"collections": [
+					{
+						"resourceURI": "http://gateway.marvel.com/v1/public/comics/22607",
+						"name": "Counter X Vol. 3 (Trade Paperback)"
+					}
+				],
+				"collectedIssues": [],
+				"dates": [
+					{
+						"type": "onsaleDate",
+						"date": "2000-07-01T00:00:00-0400"
+					},
+					{
+						"type": "focDate",
+						"date": "-0001-11-30T00:00:00-0500"
+					},
+					{
+						"type": "unlimitedDate",
+						"date": "2008-01-01T00:00:00-0500"
+					}
+				],
+				"prices": [
+					{
+						"type": "printPrice",
+						"price": 1.99
+					}
+				],
+				"thumbnail": {
+					"path": "http://i.annihil.us/u/prod/marvel/i/mg/6/b0/57718e10ed6c6",
+					"extension": "jpg"
+				},
+				"images": [
+					{
+						"path": "http://i.annihil.us/u/prod/marvel/i/mg/6/b0/57718e10ed6c6",
+						"extension": "jpg"
+					}
+				],
+				"creators": {
+					"available": 0,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18238/creators",
+					"items": [],
+					"returned": 0
+				},
+				"characters": {
+					"available": 1,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18238/characters",
+					"items": [
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/characters/1009725",
+							"name": "X-Man"
+						}
+					],
+					"returned": 1
+				},
+				"stories": {
+					"available": 3,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18238/stories",
+					"items": [
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/stories/38795",
+							"name": "",
+							"type": ""
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/stories/67805",
+							"name": "X-Man 65 cover",
+							"type": "cover"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/stories/162464",
+							"name": "story from X-Man (1995) #65",
+							"type": "interiorStory"
+						}
+					],
+					"returned": 3
+				},
+				"events": {
+					"available": 0,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18238/events",
+					"items": [],
+					"returned": 0
+				}
+			},
+			{
+				"id": 18237,
+				"digitalId": 11842,
+				"title": "X-Man (1995) #64",
+				"issueNumber": 64,
+				"variantDescription": "",
+				"description": null,
+				"modified": "2016-06-27T13:26:18-0400",
+				"isbn": "",
+				"upc": "75960604204306411",
+				"diamondCode": "",
+				"ean": "",
+				"issn": "",
+				"format": "Comic",
+				"pageCount": 0,
+				"textObjects": [],
+				"resourceURI": "http://gateway.marvel.com/v1/public/comics/18237",
+				"urls": [
+					{
+						"type": "detail",
+						"url": "http://marvel.com/comics/issue/18237/x-man_1995_64?utm_campaign=apiRef&utm_source=b4d03af436bbbf7ddc36746675e1d542"
+					},
+					{
+						"type": "reader",
+						"url": "http://marvel.com/digitalcomics/view.htm?iid=11842&utm_campaign=apiRef&utm_source=b4d03af436bbbf7ddc36746675e1d542"
+					}
+				],
+				"series": {
+					"resourceURI": "http://gateway.marvel.com/v1/public/series/3643",
+					"name": "X-Man (1995 - 2000)"
+				},
+				"variants": [],
+				"collections": [
+					{
+						"resourceURI": "http://gateway.marvel.com/v1/public/comics/22607",
+						"name": "Counter X Vol. 3 (Trade Paperback)"
+					}
+				],
+				"collectedIssues": [],
+				"dates": [
+					{
+						"type": "onsaleDate",
+						"date": "2000-06-01T00:00:00-0400"
+					},
+					{
+						"type": "focDate",
+						"date": "-0001-11-30T00:00:00-0500"
+					},
+					{
+						"type": "unlimitedDate",
+						"date": "2008-01-01T00:00:00-0500"
+					}
+				],
+				"prices": [
+					{
+						"type": "printPrice",
+						"price": 1.99
+					}
+				],
+				"thumbnail": {
+					"path": "http://i.annihil.us/u/prod/marvel/i/mg/7/c0/57718888bfc9c",
+					"extension": "jpg"
+				},
+				"images": [
+					{
+						"path": "http://i.annihil.us/u/prod/marvel/i/mg/7/c0/57718888bfc9c",
+						"extension": "jpg"
+					}
+				],
+				"creators": {
+					"available": 0,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18237/creators",
+					"items": [],
+					"returned": 0
+				},
+				"characters": {
+					"available": 1,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18237/characters",
+					"items": [
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/characters/1009725",
+							"name": "X-Man"
+						}
+					],
+					"returned": 1
+				},
+				"stories": {
+					"available": 3,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18237/stories",
+					"items": [
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/stories/38794",
+							"name": "",
+							"type": ""
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/stories/67804",
+							"name": "X-Man 64 cover",
+							"type": "cover"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/stories/162463",
+							"name": "story from X-Man (1995) #64",
+							"type": "interiorStory"
+						}
+					],
+					"returned": 3
+				},
+				"events": {
+					"available": 0,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18237/events",
+					"items": [],
+					"returned": 0
+				}
+			},
+			{
+				"id": 18236,
+				"digitalId": 11841,
+				"title": "X-Man (1995) #63",
+				"issueNumber": 63,
+				"variantDescription": "",
+				"description": null,
+				"modified": "2014-09-18T14:52:07-0400",
+				"isbn": "",
+				"upc": "75960604204306311",
+				"diamondCode": "",
+				"ean": "",
+				"issn": "",
+				"format": "Comic",
+				"pageCount": 0,
+				"textObjects": [],
+				"resourceURI": "http://gateway.marvel.com/v1/public/comics/18236",
+				"urls": [
+					{
+						"type": "detail",
+						"url": "http://marvel.com/comics/issue/18236/x-man_1995_63?utm_campaign=apiRef&utm_source=b4d03af436bbbf7ddc36746675e1d542"
+					},
+					{
+						"type": "reader",
+						"url": "http://marvel.com/digitalcomics/view.htm?iid=11841&utm_campaign=apiRef&utm_source=b4d03af436bbbf7ddc36746675e1d542"
+					}
+				],
+				"series": {
+					"resourceURI": "http://gateway.marvel.com/v1/public/series/3643",
+					"name": "X-Man (1995 - 2000)"
+				},
+				"variants": [],
+				"collections": [
+					{
+						"resourceURI": "http://gateway.marvel.com/v1/public/comics/22607",
+						"name": "Counter X Vol. 3 (Trade Paperback)"
+					}
+				],
+				"collectedIssues": [],
+				"dates": [
+					{
+						"type": "onsaleDate",
+						"date": "2000-05-01T00:00:00-0400"
+					},
+					{
+						"type": "focDate",
+						"date": "-0001-11-30T00:00:00-0500"
+					},
+					{
+						"type": "unlimitedDate",
+						"date": "2009-10-09T00:00:00-0400"
+					}
+				],
+				"prices": [
+					{
+						"type": "printPrice",
+						"price": 1.99
+					}
+				],
+				"thumbnail": {
+					"path": "http://i.annihil.us/u/prod/marvel/i/mg/f/03/5966707031ef7",
+					"extension": "jpg"
+				},
+				"images": [
+					{
+						"path": "http://i.annihil.us/u/prod/marvel/i/mg/f/03/5966707031ef7",
+						"extension": "jpg"
+					}
+				],
+				"creators": {
+					"available": 0,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18236/creators",
+					"items": [],
+					"returned": 0
+				},
+				"characters": {
+					"available": 1,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18236/characters",
+					"items": [
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/characters/1009725",
+							"name": "X-Man"
+						}
+					],
+					"returned": 1
+				},
+				"stories": {
+					"available": 2,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18236/stories",
+					"items": [
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/stories/38793",
+							"name": "X-Man (1995) #63",
+							"type": "interiorStory"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/stories/67803",
+							"name": "X-Man (1995) #63",
+							"type": "cover"
+						}
+					],
+					"returned": 2
+				},
+				"events": {
+					"available": 0,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18236/events",
+					"items": [],
+					"returned": 0
+				}
+			},
+			{
+				"id": 18231,
+				"digitalId": 11840,
+				"title": "X-Man (1995) #59",
+				"issueNumber": 59,
+				"variantDescription": "",
+				"description": null,
+				"modified": "-0001-11-30T00:00:00-0500",
+				"isbn": "",
+				"upc": "75960604204305911",
+				"diamondCode": "",
+				"ean": "",
+				"issn": "",
+				"format": "Comic",
+				"pageCount": 0,
+				"textObjects": [],
+				"resourceURI": "http://gateway.marvel.com/v1/public/comics/18231",
+				"urls": [
+					{
+						"type": "detail",
+						"url": "http://marvel.com/comics/issue/18231/x-man_1995_59?utm_campaign=apiRef&utm_source=b4d03af436bbbf7ddc36746675e1d542"
+					},
+					{
+						"type": "purchase",
+						"url": "http://comicstore.marvel.com/X-Man-59/digital-comic/11840?utm_campaign=apiRef&utm_source=b4d03af436bbbf7ddc36746675e1d542"
+					},
+					{
+						"type": "reader",
+						"url": "http://marvel.com/digitalcomics/view.htm?iid=11840&utm_campaign=apiRef&utm_source=b4d03af436bbbf7ddc36746675e1d542"
+					},
+					{
+						"type": "inAppLink",
+						"url": "https://applink.marvel.com/issue/11840?utm_campaign=apiRef&utm_source=b4d03af436bbbf7ddc36746675e1d542"
+					}
+				],
+				"series": {
+					"resourceURI": "http://gateway.marvel.com/v1/public/series/3643",
+					"name": "X-Man (1995 - 2000)"
+				},
+				"variants": [],
+				"collections": [
+					{
+						"resourceURI": "http://gateway.marvel.com/v1/public/comics/20913",
+						"name": "X-Men Vs. Apocalypse Vol. 1: The Twelve (Trade Paperback)"
+					}
+				],
+				"collectedIssues": [],
+				"dates": [
+					{
+						"type": "onsaleDate",
+						"date": "2000-01-01T00:00:00-0500"
+					},
+					{
+						"type": "focDate",
+						"date": "-0001-11-30T00:00:00-0500"
+					},
+					{
+						"type": "unlimitedDate",
+						"date": "2009-10-09T00:00:00-0400"
+					},
+					{
+						"type": "digitalPurchaseDate",
+						"date": "2014-04-01T00:00:00-0400"
+					}
+				],
+				"prices": [
+					{
+						"type": "printPrice",
+						"price": 0
+					},
+					{
+						"type": "digitalPurchasePrice",
+						"price": 1.99
+					}
+				],
+				"thumbnail": {
+					"path": "http://i.annihil.us/u/prod/marvel/i/mg/1/00/59664c3281b86",
+					"extension": "jpg"
+				},
+				"images": [
+					{
+						"path": "http://i.annihil.us/u/prod/marvel/i/mg/1/00/59664c3281b86",
+						"extension": "jpg"
+					}
+				],
+				"creators": {
+					"available": 0,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18231/creators",
+					"items": [],
+					"returned": 0
+				},
+				"characters": {
+					"available": 6,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18231/characters",
+					"items": [
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/characters/1009299",
+							"name": "Fantastic Four"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/characters/1009356",
+							"name": "Human Torch"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/characters/1009366",
+							"name": "Invisible Woman"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/characters/1009459",
+							"name": "Mr. Fantastic"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/characters/1009662",
+							"name": "Thing"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/characters/1009725",
+							"name": "X-Man"
+						}
+					],
+					"returned": 6
+				},
+				"stories": {
+					"available": 2,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18231/stories",
+					"items": [
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/stories/38787",
+							"name": "X-Man (1995) #59",
+							"type": "interiorStory"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/stories/67798",
+							"name": "X-Man (1995) #59",
+							"type": "cover"
+						}
+					],
+					"returned": 2
+				},
+				"events": {
+					"available": 0,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18231/events",
+					"items": [],
+					"returned": 0
+				}
+			},
+			{
+				"id": 18227,
+				"digitalId": 0,
+				"title": "X-Man (1995) #55",
+				"issueNumber": 55,
+				"variantDescription": "",
+				"description": null,
+				"modified": "2016-06-27T13:16:48-0400",
+				"isbn": "",
+				"upc": "",
+				"diamondCode": "",
+				"ean": "",
+				"issn": "",
+				"format": "Comic",
+				"pageCount": 0,
+				"textObjects": [],
+				"resourceURI": "http://gateway.marvel.com/v1/public/comics/18227",
+				"urls": [
+					{
+						"type": "detail",
+						"url": "http://marvel.com/comics/issue/18227/x-man_1995_55?utm_campaign=apiRef&utm_source=b4d03af436bbbf7ddc36746675e1d542"
+					}
+				],
+				"series": {
+					"resourceURI": "http://gateway.marvel.com/v1/public/series/3643",
+					"name": "X-Man (1995 - 2000)"
+				},
+				"variants": [],
+				"collections": [],
+				"collectedIssues": [],
+				"dates": [
+					{
+						"type": "onsaleDate",
+						"date": "1999-09-01T00:00:00-0400"
+					},
+					{
+						"type": "focDate",
+						"date": "2016-06-06T00:00:00-0400"
+					}
+				],
+				"prices": [
+					{
+						"type": "printPrice",
+						"price": 0
+					}
+				],
+				"thumbnail": {
+					"path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+					"extension": "jpg"
+				},
+				"images": [],
+				"creators": {
+					"available": 0,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18227/creators",
+					"items": [],
+					"returned": 0
+				},
+				"characters": {
+					"available": 0,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18227/characters",
+					"items": [],
+					"returned": 0
+				},
+				"stories": {
+					"available": 2,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18227/stories",
+					"items": [
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/stories/38783",
+							"name": "",
+							"type": ""
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/stories/67794",
+							"name": "X-Man 55 cover",
+							"type": "cover"
+						}
+					],
+					"returned": 2
+				},
+				"events": {
+					"available": 0,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18227/events",
+					"items": [],
+					"returned": 0
+				}
+			},
+			{
+				"id": 18226,
+				"digitalId": 7760,
+				"title": "X-Man (1995) #54",
+				"issueNumber": 54,
+				"variantDescription": "",
+				"description": null,
+				"modified": "2016-01-05T16:44:34-0500",
+				"isbn": "",
+				"upc": "75960604204305411",
+				"diamondCode": "",
+				"ean": "",
+				"issn": "",
+				"format": "Comic",
+				"pageCount": 0,
+				"textObjects": [],
+				"resourceURI": "http://gateway.marvel.com/v1/public/comics/18226",
+				"urls": [
+					{
+						"type": "detail",
+						"url": "http://marvel.com/comics/issue/18226/x-man_1995_54?utm_campaign=apiRef&utm_source=b4d03af436bbbf7ddc36746675e1d542"
+					},
+					{
+						"type": "purchase",
+						"url": "http://comicstore.marvel.com/X-Man-54/digital-comic/7760?utm_campaign=apiRef&utm_source=b4d03af436bbbf7ddc36746675e1d542"
+					},
+					{
+						"type": "reader",
+						"url": "http://marvel.com/digitalcomics/view.htm?iid=7760&utm_campaign=apiRef&utm_source=b4d03af436bbbf7ddc36746675e1d542"
+					},
+					{
+						"type": "inAppLink",
+						"url": "https://applink.marvel.com/issue/7760?utm_campaign=apiRef&utm_source=b4d03af436bbbf7ddc36746675e1d542"
+					}
+				],
+				"series": {
+					"resourceURI": "http://gateway.marvel.com/v1/public/series/3643",
+					"name": "X-Man (1995 - 2000)"
+				},
+				"variants": [],
+				"collections": [
+					{
+						"resourceURI": "http://gateway.marvel.com/v1/public/comics/5369",
+						"name": "X-Men: The Complete Age of Apocalypse Epic Book 4 (Trade Paperback)"
+					}
+				],
+				"collectedIssues": [],
+				"dates": [
+					{
+						"type": "onsaleDate",
+						"date": "1999-08-01T00:00:00-0400"
+					},
+					{
+						"type": "focDate",
+						"date": "-0001-11-30T00:00:00-0500"
+					},
+					{
+						"type": "unlimitedDate",
+						"date": "2009-10-09T00:00:00-0400"
+					},
+					{
+						"type": "digitalPurchaseDate",
+						"date": "2014-06-03T00:00:00-0400"
+					}
+				],
+				"prices": [
+					{
+						"type": "printPrice",
+						"price": 0
+					},
+					{
+						"type": "digitalPurchasePrice",
+						"price": 1.99
+					}
+				],
+				"thumbnail": {
+					"path": "http://i.annihil.us/u/prod/marvel/i/mg/2/10/596649e76d199",
+					"extension": "jpg"
+				},
+				"images": [
+					{
+						"path": "http://i.annihil.us/u/prod/marvel/i/mg/2/10/596649e76d199",
+						"extension": "jpg"
+					}
+				],
+				"creators": {
+					"available": 5,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18226/creators",
+					"items": [
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/1945",
+							"name": "Mark Bernardo",
+							"role": "colorist"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/1162",
+							"name": "Terry Kavanagh",
+							"role": "writer"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/1927",
+							"name": "Bud Larosa",
+							"role": "inker"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/2338",
+							"name": "Luke Ross",
+							"role": "penciler"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/350",
+							"name": "Richard Starkings",
+							"role": "letterer"
+						}
+					],
+					"returned": 5
+				},
+				"characters": {
+					"available": 1,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18226/characters",
+					"items": [
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/characters/1009725",
+							"name": "X-Man"
+						}
+					],
+					"returned": 1
+				},
+				"stories": {
+					"available": 2,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18226/stories",
+					"items": [
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/stories/38782",
+							"name": "X-Man (1995) #54",
+							"type": "interiorStory"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/stories/67793",
+							"name": "X-Man (1995) #54",
+							"type": "cover"
+						}
+					],
+					"returned": 2
+				},
+				"events": {
+					"available": 1,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18226/events",
+					"items": [
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/events/227",
+							"name": "Age of Apocalypse"
+						}
+					],
+					"returned": 1
+				}
+			},
+			{
+				"id": 18225,
+				"digitalId": 7759,
+				"title": "X-Man (1995) #53",
+				"issueNumber": 53,
+				"variantDescription": "",
+				"description": null,
+				"modified": "2016-01-05T16:44:33-0500",
+				"isbn": "",
+				"upc": "75960604204305311",
+				"diamondCode": "",
+				"ean": "",
+				"issn": "",
+				"format": "Comic",
+				"pageCount": 0,
+				"textObjects": [],
+				"resourceURI": "http://gateway.marvel.com/v1/public/comics/18225",
+				"urls": [
+					{
+						"type": "detail",
+						"url": "http://marvel.com/comics/issue/18225/x-man_1995_53?utm_campaign=apiRef&utm_source=b4d03af436bbbf7ddc36746675e1d542"
+					},
+					{
+						"type": "purchase",
+						"url": "http://comicstore.marvel.com/X-Man-53/digital-comic/7759?utm_campaign=apiRef&utm_source=b4d03af436bbbf7ddc36746675e1d542"
+					},
+					{
+						"type": "reader",
+						"url": "http://marvel.com/digitalcomics/view.htm?iid=7759&utm_campaign=apiRef&utm_source=b4d03af436bbbf7ddc36746675e1d542"
+					},
+					{
+						"type": "inAppLink",
+						"url": "https://applink.marvel.com/issue/7759?utm_campaign=apiRef&utm_source=b4d03af436bbbf7ddc36746675e1d542"
+					}
+				],
+				"series": {
+					"resourceURI": "http://gateway.marvel.com/v1/public/series/3643",
+					"name": "X-Man (1995 - 2000)"
+				},
+				"variants": [],
+				"collections": [
+					{
+						"resourceURI": "http://gateway.marvel.com/v1/public/comics/5369",
+						"name": "X-Men: The Complete Age of Apocalypse Epic Book 4 (Trade Paperback)"
+					}
+				],
+				"collectedIssues": [],
+				"dates": [
+					{
+						"type": "onsaleDate",
+						"date": "1999-07-01T00:00:00-0400"
+					},
+					{
+						"type": "focDate",
+						"date": "-0001-11-30T00:00:00-0500"
+					},
+					{
+						"type": "unlimitedDate",
+						"date": "2009-10-09T00:00:00-0400"
+					},
+					{
+						"type": "digitalPurchaseDate",
+						"date": "2014-06-03T00:00:00-0400"
+					}
+				],
+				"prices": [
+					{
+						"type": "printPrice",
+						"price": 0
+					},
+					{
+						"type": "digitalPurchasePrice",
+						"price": 1.99
+					}
+				],
+				"thumbnail": {
+					"path": "http://i.annihil.us/u/prod/marvel/i/mg/1/30/596648c37482a",
+					"extension": "jpg"
+				},
+				"images": [
+					{
+						"path": "http://i.annihil.us/u/prod/marvel/i/mg/1/30/596648c37482a",
+						"extension": "jpg"
+					}
+				],
+				"creators": {
+					"available": 6,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18225/creators",
+					"items": [
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/1162",
+							"name": "Terry Kavanagh",
+							"role": "writer"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/1927",
+							"name": "Bud Larosa",
+							"role": "inker"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/2338",
+							"name": "Luke Ross",
+							"role": "penciler"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/350",
+							"name": "Richard Starkings",
+							"role": "letterer"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/3887",
+							"name": "Michael Thomas",
+							"role": "colorist"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/1917",
+							"name": "Kevin Tinsley",
+							"role": "colorist"
+						}
+					],
+					"returned": 6
+				},
+				"characters": {
+					"available": 1,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18225/characters",
+					"items": [
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/characters/1009725",
+							"name": "X-Man"
+						}
+					],
+					"returned": 1
+				},
+				"stories": {
+					"available": 2,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18225/stories",
+					"items": [
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/stories/38781",
+							"name": "X-Man (1995) #53",
+							"type": "interiorStory"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/stories/67792",
+							"name": "X-Man (1995) #53",
+							"type": "cover"
+						}
+					],
+					"returned": 2
+				},
+				"events": {
+					"available": 1,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18225/events",
+					"items": [
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/events/227",
+							"name": "Age of Apocalypse"
+						}
+					],
+					"returned": 1
+				}
+			},
+			{
+				"id": 18222,
+				"digitalId": 0,
+				"title": "X-Man (1995) #50",
+				"issueNumber": 50,
+				"variantDescription": "",
+				"description": null,
+				"modified": "-0001-11-30T00:00:00-0500",
+				"isbn": "",
+				"upc": "",
+				"diamondCode": "",
+				"ean": "",
+				"issn": "",
+				"format": "Comic",
+				"pageCount": 54,
+				"textObjects": [],
+				"resourceURI": "http://gateway.marvel.com/v1/public/comics/18222",
+				"urls": [
+					{
+						"type": "detail",
+						"url": "http://marvel.com/comics/issue/18222/x-man_1995_50?utm_campaign=apiRef&utm_source=b4d03af436bbbf7ddc36746675e1d542"
+					}
+				],
+				"series": {
+					"resourceURI": "http://gateway.marvel.com/v1/public/series/3643",
+					"name": "X-Man (1995 - 2000)"
+				},
+				"variants": [],
+				"collections": [],
+				"collectedIssues": [],
+				"dates": [
+					{
+						"type": "onsaleDate",
+						"date": "1999-04-10T00:00:00-0400"
+					},
+					{
+						"type": "focDate",
+						"date": "-0001-11-30T00:00:00-0500"
+					}
+				],
+				"prices": [
+					{
+						"type": "printPrice",
+						"price": 0
+					}
+				],
+				"thumbnail": {
+					"path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+					"extension": "jpg"
+				},
+				"images": [],
+				"creators": {
+					"available": 6,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18222/creators",
+					"items": [
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/4055",
+							"name": "Pete Franco",
+							"role": "editor"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/1162",
+							"name": "Terry Kavanagh",
+							"role": "writer"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/1927",
+							"name": "Bud Larosa",
+							"role": "inker"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/2338",
+							"name": "Luke Ross",
+							"role": "penciler"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/350",
+							"name": "Richard Starkings",
+							"role": "letterer"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/5073",
+							"name": "Mike Thomas",
+							"role": "colorist"
+						}
+					],
+					"returned": 6
+				},
+				"characters": {
+					"available": 2,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18222/characters",
+					"items": [
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/characters/1009725",
+							"name": "X-Man"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/characters/1009726",
+							"name": "X-Men"
+						}
+					],
+					"returned": 2
+				},
+				"stories": {
+					"available": 2,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18222/stories",
+					"items": [
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/stories/38777",
+							"name": "Cover #38777",
+							"type": "cover"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/stories/38778",
+							"name": "War of the Mutants (Part 2: New Blood)",
+							"type": "interiorStory"
+						}
+					],
+					"returned": 2
+				},
+				"events": {
+					"available": 0,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18222/events",
+					"items": [],
+					"returned": 0
+				}
+			},
+			{
+				"id": 18220,
+				"digitalId": 0,
+				"title": "X-Man (1995) #49",
+				"issueNumber": 49,
+				"variantDescription": "",
+				"description": null,
+				"modified": "-0001-11-30T00:00:00-0500",
+				"isbn": "",
+				"upc": "",
+				"diamondCode": "",
+				"ean": "",
+				"issn": "",
+				"format": "Comic",
+				"pageCount": 36,
+				"textObjects": [],
+				"resourceURI": "http://gateway.marvel.com/v1/public/comics/18220",
+				"urls": [
+					{
+						"type": "detail",
+						"url": "http://marvel.com/comics/issue/18220/x-man_1995_49?utm_campaign=apiRef&utm_source=b4d03af436bbbf7ddc36746675e1d542"
+					}
+				],
+				"series": {
+					"resourceURI": "http://gateway.marvel.com/v1/public/series/3643",
+					"name": "X-Man (1995 - 2000)"
+				},
+				"variants": [],
+				"collections": [],
+				"collectedIssues": [],
+				"dates": [
+					{
+						"type": "onsaleDate",
+						"date": "1999-03-10T00:00:00-0500"
+					},
+					{
+						"type": "focDate",
+						"date": "-0001-11-30T00:00:00-0500"
+					}
+				],
+				"prices": [
+					{
+						"type": "printPrice",
+						"price": 0
+					}
+				],
+				"thumbnail": {
+					"path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+					"extension": "jpg"
+				},
+				"images": [],
+				"creators": {
+					"available": 6,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18220/creators",
+					"items": [
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/4055",
+							"name": "Pete Franco",
+							"role": "editor"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/1162",
+							"name": "Terry Kavanagh",
+							"role": "writer"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/1927",
+							"name": "Bud Larosa",
+							"role": "inker"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/2338",
+							"name": "Luke Ross",
+							"role": "penciler"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/350",
+							"name": "Richard Starkings",
+							"role": "letterer"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/5073",
+							"name": "Mike Thomas",
+							"role": "colorist"
+						}
+					],
+					"returned": 6
+				},
+				"characters": {
+					"available": 2,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18220/characters",
+					"items": [
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/characters/1009725",
+							"name": "X-Man"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/characters/1009726",
+							"name": "X-Men"
+						}
+					],
+					"returned": 2
+				},
+				"stories": {
+					"available": 2,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18220/stories",
+					"items": [
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/stories/38773",
+							"name": "Cover #38773",
+							"type": "cover"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/stories/38774",
+							"name": "Skyfall",
+							"type": "interiorStory"
+						}
+					],
+					"returned": 2
+				},
+				"events": {
+					"available": 0,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18220/events",
+					"items": [],
+					"returned": 0
+				}
+			},
+			{
+				"id": 18219,
+				"digitalId": 0,
+				"title": "X-Man (1995) #48",
+				"issueNumber": 48,
+				"variantDescription": "",
+				"description": null,
+				"modified": "-0001-11-30T00:00:00-0500",
+				"isbn": "",
+				"upc": "",
+				"diamondCode": "",
+				"ean": "",
+				"issn": "",
+				"format": "Comic",
+				"pageCount": 38,
+				"textObjects": [],
+				"resourceURI": "http://gateway.marvel.com/v1/public/comics/18219",
+				"urls": [
+					{
+						"type": "detail",
+						"url": "http://marvel.com/comics/issue/18219/x-man_1995_48?utm_campaign=apiRef&utm_source=b4d03af436bbbf7ddc36746675e1d542"
+					}
+				],
+				"series": {
+					"resourceURI": "http://gateway.marvel.com/v1/public/series/3643",
+					"name": "X-Man (1995 - 2000)"
+				},
+				"variants": [],
+				"collections": [],
+				"collectedIssues": [],
+				"dates": [
+					{
+						"type": "onsaleDate",
+						"date": "1999-02-10T00:00:00-0500"
+					},
+					{
+						"type": "focDate",
+						"date": "-0001-11-30T00:00:00-0500"
+					}
+				],
+				"prices": [
+					{
+						"type": "printPrice",
+						"price": 0
+					}
+				],
+				"thumbnail": {
+					"path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+					"extension": "jpg"
+				},
+				"images": [],
+				"creators": {
+					"available": 7,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18219/creators",
+					"items": [
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/1945",
+							"name": "Mark Bernardo",
+							"role": "writer"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/3603",
+							"name": "Albert Deschesne",
+							"role": "letterer"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/350",
+							"name": "Richard Starkings",
+							"role": "letterer"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/4055",
+							"name": "Pete Franco",
+							"role": "editor"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/1927",
+							"name": "Bud Larosa",
+							"role": "inker"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/2338",
+							"name": "Luke Ross",
+							"role": "penciler"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/5073",
+							"name": "Mike Thomas",
+							"role": "colorist"
+						}
+					],
+					"returned": 7
+				},
+				"characters": {
+					"available": 2,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18219/characters",
+					"items": [
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/characters/1009725",
+							"name": "X-Man"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/characters/1009726",
+							"name": "X-Men"
+						}
+					],
+					"returned": 2
+				},
+				"stories": {
+					"available": 3,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18219/stories",
+					"items": [
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/stories/38770",
+							"name": "Cover #38770",
+							"type": "cover"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/stories/38771",
+							"name": "X-Man",
+							"type": "interiorStory"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/stories/38772",
+							"name": "The Blood of the Righteous",
+							"type": "interiorStory"
+						}
+					],
+					"returned": 3
+				},
+				"events": {
+					"available": 0,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18219/events",
+					"items": [],
+					"returned": 0
+				}
+			},
+			{
+				"id": 18218,
+				"digitalId": 0,
+				"title": "X-Man (1995) #47",
+				"issueNumber": 47,
+				"variantDescription": "",
+				"description": null,
+				"modified": "-0001-11-30T00:00:00-0500",
+				"isbn": "",
+				"upc": "",
+				"diamondCode": "",
+				"ean": "",
+				"issn": "",
+				"format": "Comic",
+				"pageCount": 38,
+				"textObjects": [],
+				"resourceURI": "http://gateway.marvel.com/v1/public/comics/18218",
+				"urls": [
+					{
+						"type": "detail",
+						"url": "http://marvel.com/comics/issue/18218/x-man_1995_47?utm_campaign=apiRef&utm_source=b4d03af436bbbf7ddc36746675e1d542"
+					}
+				],
+				"series": {
+					"resourceURI": "http://gateway.marvel.com/v1/public/series/3643",
+					"name": "X-Man (1995 - 2000)"
+				},
+				"variants": [],
+				"collections": [],
+				"collectedIssues": [],
+				"dates": [
+					{
+						"type": "onsaleDate",
+						"date": "1999-01-10T00:00:00-0500"
+					},
+					{
+						"type": "focDate",
+						"date": "-0001-11-30T00:00:00-0500"
+					}
+				],
+				"prices": [
+					{
+						"type": "printPrice",
+						"price": 0
+					}
+				],
+				"thumbnail": {
+					"path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+					"extension": "jpg"
+				},
+				"images": [],
+				"creators": {
+					"available": 6,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18218/creators",
+					"items": [
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/4055",
+							"name": "Pete Franco",
+							"role": "editor"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/5985",
+							"name": "Mick Gary",
+							"role": "inker"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/1162",
+							"name": "Terry Kavanagh",
+							"role": "writer"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/350",
+							"name": "Richard Starkings",
+							"role": "letterer"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/5073",
+							"name": "Mike Thomas",
+							"role": "colorist"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/6143",
+							"name": "J.H. Williams III",
+							"role": "penciler"
+						}
+					],
+					"returned": 6
+				},
+				"characters": {
+					"available": 2,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18218/characters",
+					"items": [
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/characters/1009725",
+							"name": "X-Man"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/characters/1009726",
+							"name": "X-Men"
+						}
+					],
+					"returned": 2
+				},
+				"stories": {
+					"available": 2,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18218/stories",
+					"items": [
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/stories/38768",
+							"name": "Cover #38768",
+							"type": "cover"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/stories/38769",
+							"name": "Dreams End (Blood Brothers -- Part 3 of 3)",
+							"type": "interiorStory"
+						}
+					],
+					"returned": 2
+				},
+				"events": {
+					"available": 0,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18218/events",
+					"items": [],
+					"returned": 0
+				}
+			},
+			{
+				"id": 18217,
+				"digitalId": 0,
+				"title": "X-Man (1995) #46",
+				"issueNumber": 46,
+				"variantDescription": "",
+				"description": null,
+				"modified": "-0001-11-30T00:00:00-0500",
+				"isbn": "",
+				"upc": "",
+				"diamondCode": "",
+				"ean": "",
+				"issn": "",
+				"format": "Comic",
+				"pageCount": 38,
+				"textObjects": [],
+				"resourceURI": "http://gateway.marvel.com/v1/public/comics/18217",
+				"urls": [
+					{
+						"type": "detail",
+						"url": "http://marvel.com/comics/issue/18217/x-man_1995_46?utm_campaign=apiRef&utm_source=b4d03af436bbbf7ddc36746675e1d542"
+					}
+				],
+				"series": {
+					"resourceURI": "http://gateway.marvel.com/v1/public/series/3643",
+					"name": "X-Man (1995 - 2000)"
+				},
+				"variants": [],
+				"collections": [],
+				"collectedIssues": [],
+				"dates": [
+					{
+						"type": "onsaleDate",
+						"date": "1998-12-21T00:00:00-0500"
+					},
+					{
+						"type": "focDate",
+						"date": "-0001-11-30T00:00:00-0500"
+					}
+				],
+				"prices": [
+					{
+						"type": "printPrice",
+						"price": 0
+					}
+				],
+				"thumbnail": {
+					"path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+					"extension": "jpg"
+				},
+				"images": [],
+				"creators": {
+					"available": 6,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18217/creators",
+					"items": [
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/4055",
+							"name": "Pete Franco",
+							"role": "editor"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/5985",
+							"name": "Mick Gary",
+							"role": "inker"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/1162",
+							"name": "Terry Kavanagh",
+							"role": "writer"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/350",
+							"name": "Richard Starkings",
+							"role": "letterer"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/5073",
+							"name": "Mike Thomas",
+							"role": "colorist"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/6143",
+							"name": "J.H. Williams III",
+							"role": "penciler"
+						}
+					],
+					"returned": 6
+				},
+				"characters": {
+					"available": 2,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18217/characters",
+					"items": [
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/characters/1009725",
+							"name": "X-Man"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/characters/1009726",
+							"name": "X-Men"
+						}
+					],
+					"returned": 2
+				},
+				"stories": {
+					"available": 2,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18217/stories",
+					"items": [
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/stories/38766",
+							"name": "Cover #38766",
+							"type": "cover"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/stories/38767",
+							"name": "Stormfront (Blood Brothers -- Part 1 of 3)",
+							"type": "interiorStory"
+						}
+					],
+					"returned": 2
+				},
+				"events": {
+					"available": 0,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18217/events",
+					"items": [],
+					"returned": 0
+				}
+			},
+			{
+				"id": 18216,
+				"digitalId": 0,
+				"title": "X-Man (1995) #45",
+				"issueNumber": 45,
+				"variantDescription": "",
+				"description": null,
+				"modified": "-0001-11-30T00:00:00-0500",
+				"isbn": "",
+				"upc": "",
+				"diamondCode": "",
+				"ean": "",
+				"issn": "",
+				"format": "Comic",
+				"pageCount": 38,
+				"textObjects": [],
+				"resourceURI": "http://gateway.marvel.com/v1/public/comics/18216",
+				"urls": [
+					{
+						"type": "detail",
+						"url": "http://marvel.com/comics/issue/18216/x-man_1995_45?utm_campaign=apiRef&utm_source=b4d03af436bbbf7ddc36746675e1d542"
+					}
+				],
+				"series": {
+					"resourceURI": "http://gateway.marvel.com/v1/public/series/3643",
+					"name": "X-Man (1995 - 2000)"
+				},
+				"variants": [],
+				"collections": [],
+				"collectedIssues": [],
+				"dates": [
+					{
+						"type": "onsaleDate",
+						"date": "1998-12-10T00:00:00-0500"
+					},
+					{
+						"type": "focDate",
+						"date": "-0001-11-30T00:00:00-0500"
+					}
+				],
+				"prices": [
+					{
+						"type": "printPrice",
+						"price": 0
+					}
+				],
+				"thumbnail": {
+					"path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+					"extension": "jpg"
+				},
+				"images": [],
+				"creators": {
+					"available": 6,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18216/creators",
+					"items": [
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/4055",
+							"name": "Pete Franco",
+							"role": "editor"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/1162",
+							"name": "Terry Kavanagh",
+							"role": "writer"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/1927",
+							"name": "Bud Larosa",
+							"role": "inker"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/5884",
+							"name": "Mark Pajarillo",
+							"role": "penciler"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/350",
+							"name": "Richard Starkings",
+							"role": "letterer"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/5073",
+							"name": "Mike Thomas",
+							"role": "colorist"
+						}
+					],
+					"returned": 6
+				},
+				"characters": {
+					"available": 2,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18216/characters",
+					"items": [
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/characters/1009725",
+							"name": "X-Man"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/characters/1009726",
+							"name": "X-Men"
+						}
+					],
+					"returned": 2
+				},
+				"stories": {
+					"available": 3,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18216/stories",
+					"items": [
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/stories/38763",
+							"name": "Cover #38763",
+							"type": "cover"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/stories/38764",
+							"name": "X-Man",
+							"type": "interiorStory"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/stories/38765",
+							"name": "Crossing Borders (Blood Brothers -- Prelude)",
+							"type": "interiorStory"
+						}
+					],
+					"returned": 3
+				},
+				"events": {
+					"available": 0,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18216/events",
+					"items": [],
+					"returned": 0
+				}
+			},
+			{
+				"id": 18215,
+				"digitalId": 0,
+				"title": "X-Man (1995) #44",
+				"issueNumber": 44,
+				"variantDescription": "",
+				"description": null,
+				"modified": "-0001-11-30T00:00:00-0500",
+				"isbn": "",
+				"upc": "",
+				"diamondCode": "",
+				"ean": "",
+				"issn": "",
+				"format": "Comic",
+				"pageCount": 38,
+				"textObjects": [],
+				"resourceURI": "http://gateway.marvel.com/v1/public/comics/18215",
+				"urls": [
+					{
+						"type": "detail",
+						"url": "http://marvel.com/comics/issue/18215/x-man_1995_44?utm_campaign=apiRef&utm_source=b4d03af436bbbf7ddc36746675e1d542"
+					}
+				],
+				"series": {
+					"resourceURI": "http://gateway.marvel.com/v1/public/series/3643",
+					"name": "X-Man (1995 - 2000)"
+				},
+				"variants": [],
+				"collections": [],
+				"collectedIssues": [],
+				"dates": [
+					{
+						"type": "onsaleDate",
+						"date": "1998-11-10T00:00:00-0500"
+					},
+					{
+						"type": "focDate",
+						"date": "-0001-11-30T00:00:00-0500"
+					}
+				],
+				"prices": [
+					{
+						"type": "printPrice",
+						"price": 0
+					}
+				],
+				"thumbnail": {
+					"path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+					"extension": "jpg"
+				},
+				"images": [],
+				"creators": {
+					"available": 6,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18215/creators",
+					"items": [
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/356",
+							"name": "Roger Cruz",
+							"role": "penciler"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/4055",
+							"name": "Pete Franco",
+							"role": "editor"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/1162",
+							"name": "Terry Kavanagh",
+							"role": "writer"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/1927",
+							"name": "Bud Larosa",
+							"role": "inker"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/350",
+							"name": "Richard Starkings",
+							"role": "letterer"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/creators/5073",
+							"name": "Mike Thomas",
+							"role": "colorist"
+						}
+					],
+					"returned": 6
+				},
+				"characters": {
+					"available": 2,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18215/characters",
+					"items": [
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/characters/1009725",
+							"name": "X-Man"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/characters/1009726",
+							"name": "X-Men"
+						}
+					],
+					"returned": 2
+				},
+				"stories": {
+					"available": 3,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18215/stories",
+					"items": [
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/stories/38760",
+							"name": "Cover #38760",
+							"type": "cover"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/stories/38761",
+							"name": "X-Man",
+							"type": "interiorStory"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/stories/38762",
+							"name": "Nowhere to Hide......",
+							"type": "interiorStory"
+						}
+					],
+					"returned": 3
+				},
+				"events": {
+					"available": 0,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18215/events",
+					"items": [],
+					"returned": 0
+				}
+			},
+			{
+				"id": 18214,
+				"digitalId": 0,
+				"title": "X-Man (1995) #43",
+				"issueNumber": 43,
+				"variantDescription": "",
+				"description": null,
+				"modified": "-0001-11-30T00:00:00-0500",
+				"isbn": "",
+				"upc": "",
+				"diamondCode": "",
+				"ean": "",
+				"issn": "",
+				"format": "Comic",
+				"pageCount": 38,
+				"textObjects": [],
+				"resourceURI": "http://gateway.marvel.com/v1/public/comics/18214",
+				"urls": [
+					{
+						"type": "detail",
+						"url": "http://marvel.com/comics/issue/18214/x-man_1995_43?utm_campaign=apiRef&utm_source=b4d03af436bbbf7ddc36746675e1d542"
+					}
+				],
+				"series": {
+					"resourceURI": "http://gateway.marvel.com/v1/public/series/3643",
+					"name": "X-Man (1995 - 2000)"
+				},
+				"variants": [],
+				"collections": [],
+				"collectedIssues": [],
+				"dates": [
+					{
+						"type": "onsaleDate",
+						"date": "1998-10-01T00:00:00-0400"
+					},
+					{
+						"type": "focDate",
+						"date": "-0001-11-30T00:00:00-0500"
+					}
+				],
+				"prices": [
+					{
+						"type": "printPrice",
+						"price": 0
+					}
+				],
+				"thumbnail": {
+					"path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+					"extension": "jpg"
+				},
+				"images": [],
+				"creators": {
+					"available": 0,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18214/creators",
+					"items": [],
+					"returned": 0
+				},
+				"characters": {
+					"available": 2,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18214/characters",
+					"items": [
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/characters/1009725",
+							"name": "X-Man"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/characters/1009726",
+							"name": "X-Men"
+						}
+					],
+					"returned": 2
+				},
+				"stories": {
+					"available": 3,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18214/stories",
+					"items": [
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/stories/38757",
+							"name": "Cover #38757",
+							"type": "cover"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/stories/38758",
+							"name": "X-Man",
+							"type": "interiorStory"
+						},
+						{
+							"resourceURI": "http://gateway.marvel.com/v1/public/stories/38759",
+							"name": "Inside Out",
+							"type": "interiorStory"
+						}
+					],
+					"returned": 3
+				},
+				"events": {
+					"available": 0,
+					"collectionURI": "http://gateway.marvel.com/v1/public/comics/18214/events",
+					"items": [],
+					"returned": 0
+				}
+			}
+		]
+	}
+}
