@@ -1,19 +1,21 @@
 <template>
-  <div id="app">
-    <router-view/>
-  </div>
+   <v-app>
+    <!-- <nav-menu /> -->
+    <v-main>
+      <router-view/>
+    </v-main>
+  </v-app>
 </template>
 
-<style lang="scss">
-*{
-  margin: 0;
-  padding: 0;
-}
+<script>
+import NavMenu from './components/NavMenu.vue';
 
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  background-color: #363636;
-  min-height: 100vh;
-  color: #c6c6c6;
-}
-</style>
+export default {
+  components: { NavMenu },
+  name: 'App',
+
+  data: () => ({
+    //
+  }),
+};
+</script>
