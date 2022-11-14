@@ -1,5 +1,6 @@
 <template>
-  <div class="home">
+  <!-- <div class="home">
+
     <div v-for="(res, index) in API_responses" :key="index">
       <h1>
         {{res.name}}
@@ -8,7 +9,15 @@
         <li v-for="(event, index) in res.events.items" :key="index">{{event.name}}</li>
       </ul>
     </div>
-  </div>
+  </div> -->
+  <v-container>
+    <h1>Comics Now</h1>
+    <div class="homeDescription">
+      <p>Welcome to Comics Now, here you can search for your favorite Marvel heroes, comics and series.</p>
+      <p><span class="buttonLabel">Login</span> or <span class="buttonLabel">Register</span> to start searching your
+        favorites Marvel's characters or comics</p>
+    </div>
+  </v-container>
 </template>
 
 <script>
@@ -45,8 +54,8 @@ export default {
   },
 
   mounted() {
-    let fetchQuery = `${this.API_url}/${this.API_fetchType}?${this.API_fetchFilter}=${this.API_fetchParam}&ts=${this.API_ts}&apikey=${this.API_publicKey}&hash=${this.API_hash}`; 
-    
+    let fetchQuery = `${this.API_url}/${this.API_fetchType}?${this.API_fetchFilter}=${this.API_fetchParam}&ts=${this.API_ts}&apikey=${this.API_publicKey}&hash=${this.API_hash}`;
+
     axios
       .get(fetchQuery)
       .then((res) => {
@@ -65,5 +74,26 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+.container {
+  margin: 5vh 5vw;
+  .homeDescription{
+    max-width: 75vw;
+    text-align:start;
+  }
+  .buttonLabel {
+    background-color: $color_main-darkest;
+    border: 1px solid $color_main-lightest;
+    border-radius: 2px;
+    color: $color_main-lightest;
+    font-weight: bold;
+    padding: 0.25rem 0.45rem;
+  
+    transition: $transition_main;
+  
+    &:hover {
+      filter: brightness(1.55);
+      cursor: pointer;
+    }
+  }
+}
 </style>

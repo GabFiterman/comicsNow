@@ -25,6 +25,17 @@ export default {
   background: url('../public/img/ComicsBackground.png')repeat 0 0 fixed;
   background-size: cover;
 
-  color: $test;
+  color: $color_main-lightest;
+  font-family: $font-family-text;
+
+  h1{
+    font-family: $font-family_titles;
+    font-size: $font-size_titles;
+  }
+
+  p{
+    font-family: $font-family-text;
+    font-size: $font-size_text;
+  }
 }
 </style>

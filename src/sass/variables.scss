@@ -1,1 +1,14 @@
-$test: #ffffff;
+// font and text
+$font-family_titles: 'Righteous', Arial, Helvetica, sans-serif;
+$font-size_titles: 40px;
+
+$font-family_text: 'Comfortaa', Arial, Helvetica, sans-serif;
+$font-size_text: 12px;
+
+// colors
+$color_main-darkest: #090000;
+$color_main-lightest: #FFD7D7;
+
+
+// miscellaneous
+$transition_main: 0.5s ease-in-out;
