@@ -1,8 +1,8 @@
 <template>
-   <v-app>
+  <v-app id="app">
     <!-- <nav-menu /> -->
     <v-main>
-      <router-view/>
+      <router-view />
     </v-main>
   </v-app>
 </template>
@@ -19,3 +19,12 @@ export default {
   }),
 };
 </script>
+
+<style lang="scss">
+#app {
+  background: url('../public/img/ComicsBackground.png')repeat 0 0 fixed;
+  background-size: cover;
+
+  color: $test;
+}
+</style>
