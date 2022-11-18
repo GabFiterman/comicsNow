@@ -1,13 +1,7 @@
 <template>
   <v-col cols="12">
     <v-row id="home">
-      <!-- Home Intro -->
-      <h1>Comics Now</h1>
-      <div class="homeDescription">
-        <p>Welcome to Comics Now, here you can search for your favorite Marvel heroes, comics and series.</p>
-        <p><span class="buttonLabel">Login</span> or <span class="buttonLabel">Register</span> to start searching your
-          favorites Marvel's characters or comics</p>
-      </div>
+      <CardHero />
     </v-row>
 
     <!-- Card  -->
@@ -21,12 +15,14 @@
 // @ is an alias to /src
 import axios from 'axios';
 import CardShow from '@/components/CardShow.vue';
+import CardHero from '@/components/CardHero.vue';
 
 export default {
   name: 'Home',
 
   components: {
     CardShow,
+    CardHero,
   },
 
   data() {
@@ -41,6 +37,7 @@ export default {
       API_fetchParam: null,
 
       API_responses: null,
+      // appName_Lettering: '../../public/ComicsNow_Lettering.png',
     };
   },
 
@@ -77,25 +74,6 @@ export default {
 
 <style lang="scss" scoped>
 #home {
-  .homeDescription {
-    max-width: 75vw;
-    text-align: start;
-  }
-
-  .buttonLabel {
-    background-color: $color_main-darkest;
-    border: $border_main_width $border_main_line $color_main-lightest;
-    border-radius: 2px;
-    color: $color_main-lightest;
-    font-weight: bold;
-    padding: 0.25rem 0.45rem;
-
-    transition: $transition_main;
-
-    &:hover {
-      filter: brightness(1.55);
-      cursor: pointer;
-    }
-  }
+  
 }
 </style>
