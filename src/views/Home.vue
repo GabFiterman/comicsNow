@@ -1,15 +1,4 @@
 <template>
-  <!-- <div class="home">
-
-    <div v-for="(res, index) in API_responses" :key="index">
-      <h1>
-        {{res.name}}
-      </h1>
-      <ul>
-        <li v-for="(event, index) in res.events.items" :key="index">{{event.name}}</li>
-      </ul>
-    </div>
-  </div> -->
   <div>
     <v-container id="home">
       <!-- Home Intro -->
@@ -20,11 +9,11 @@
           favorites Marvel's characters or comics</p>
       </div>
     </v-container>
-    <!-- Card  -->
-    <div v-if="API_responses">
-      <card-show :API_responses="API_responses" />
-    </div>
 
+    <!-- Card  -->
+    <v-container v-if="API_responses">
+      <CardShow :API_responses="API_responses" />
+    </v-container>
   </div>
 </template>
 
@@ -63,7 +52,7 @@ export default {
 
     this.API_fetchType = 'characters';
     this.API_fetchFilter = 'nameStartsWith';
-    this.API_fetchParam = 'Black'
+    this.API_fetchParam = 'Hulk'
   },
 
   mounted() {
