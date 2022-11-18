@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <v-container id="home">
+  <v-col cols="12">
+    <v-row id="home">
       <!-- Home Intro -->
       <h1>Comics Now</h1>
       <div class="homeDescription">
@@ -8,13 +8,13 @@
         <p><span class="buttonLabel">Login</span> or <span class="buttonLabel">Register</span> to start searching your
           favorites Marvel's characters or comics</p>
       </div>
-    </v-container>
+    </v-row>
 
     <!-- Card  -->
-    <v-container v-if="API_responses">
+    <v-row v-if="API_responses">
       <CardShow :API_responses="API_responses" />
-    </v-container>
-  </div>
+    </v-row>
+  </v-col>
 </template>
 
 <script>
