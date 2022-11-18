@@ -22,7 +22,7 @@ export default {
 
 <style lang="scss">
 #app {
-  background: url('../public/img/ComicsBackground.png')repeat 0 0 fixed;
+  background: url('../public/img/'+$background_image) $background-repeat $background-position;
   background-size: cover;
 
   color: $color_main-lightest;

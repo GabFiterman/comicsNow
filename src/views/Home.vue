@@ -84,7 +84,7 @@ export default {
 
   .buttonLabel {
     background-color: $color_main-darkest;
-    border: 1px solid $color_main-lightest;
+    border: $border_main_width $border_main_line $color_main-lightest;
     border-radius: 2px;
     color: $color_main-lightest;
     font-weight: bold;

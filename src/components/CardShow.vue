@@ -113,19 +113,18 @@ export default {
         }
 
         .v-list {
-            background: rgba(255, 255, 255, 0);
-            color: white;
+            background: $color_invisible;
+            color: $color_main-lightest;
 
             .v-icon {
-                color: white;
+                color: $color_main-lightest;
             }
 
             .card-infoValue {
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
-                color: white;
-                width: 125%;
+                color: $color_main-lightest;
 
                 p {
                     font-size: 1rem !important;
