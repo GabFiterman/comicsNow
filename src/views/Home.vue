@@ -1,31 +1,33 @@
 <template>
-  <!-- <div class="home">
+  <div>
+    <v-container id="home">
+      <!-- Home Intro -->
+      <h1>Comics Now</h1>
+      <div class="homeDescription">
+        <p>Welcome to Comics Now, here you can search for your favorite Marvel heroes, comics and series.</p>
+        <p><span class="buttonLabel">Login</span> or <span class="buttonLabel">Register</span> to start searching your
+          favorites Marvel's characters or comics</p>
+      </div>
+    </v-container>
 
-    <div v-for="(res, index) in API_responses" :key="index">
-      <h1>
-        {{res.name}}
-      </h1>
-      <ul>
-        <li v-for="(event, index) in res.events.items" :key="index">{{event.name}}</li>
-      </ul>
-    </div>
-  </div> -->
-  <v-container>
-    <h1>Comics Now</h1>
-    <div class="homeDescription">
-      <p>Welcome to Comics Now, here you can search for your favorite Marvel heroes, comics and series.</p>
-      <p><span class="buttonLabel">Login</span> or <span class="buttonLabel">Register</span> to start searching your
-        favorites Marvel's characters or comics</p>
-    </div>
-  </v-container>
+    <!-- Card  -->
+    <v-container v-if="API_responses">
+      <CardShow :API_responses="API_responses" />
+    </v-container>
+  </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import axios from 'axios';
+import CardShow from '@/components/CardShow.vue';
 
 export default {
   name: 'Home',
+
+  components: {
+    CardShow,
+  },
 
   data() {
     return {
@@ -50,7 +52,7 @@ export default {
 
     this.API_fetchType = 'characters';
     this.API_fetchFilter = 'nameStartsWith';
-    this.API_fetchParam = 'Black'
+    this.API_fetchParam = 'Hulk'
   },
 
   mounted() {
@@ -74,12 +76,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.container {
-  margin: 5vh 5vw;
-  .homeDescription{
+#home {
+  .homeDescription {
     max-width: 75vw;
-    text-align:start;
+    text-align: start;
   }
+
   .buttonLabel {
     background-color: $color_main-darkest;
     border: 1px solid $color_main-lightest;
@@ -87,9 +89,9 @@ export default {
     color: $color_main-lightest;
     font-weight: bold;
     padding: 0.25rem 0.45rem;
-  
+
     transition: $transition_main;
-  
+
     &:hover {
       filter: brightness(1.55);
       cursor: pointer;
