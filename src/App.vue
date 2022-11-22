@@ -1,5 +1,8 @@
 <template>
   <v-app id="app">
+    <v-container fluid>
+      <NavMenu />
+    </v-container>
     <!-- <nav-menu /> -->
     <v-main>
       <v-container fluid>
