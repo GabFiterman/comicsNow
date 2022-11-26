@@ -1,17 +1,30 @@
 <template>
   <v-app id="app">
+    <v-container fluid>
+      <NavMenu />
+    </v-container>
     <!-- <nav-menu /> -->
     <v-main>
-      <router-view />
+      <v-container fluid>
+        <router-view />
+      </v-container>
     </v-main>
+    
+    <div class="footer-container">
+      <v-container fluid>
+        <Footer />
+      </v-container>
+    </div>
+
   </v-app>
 </template>
 
 <script>
+import Footer from './components/Footer.vue';
 import NavMenu from './components/NavMenu.vue';
 
 export default {
-  components: { NavMenu },
+  components: { NavMenu, Footer },
   name: 'App',
 
   data: () => ({
@@ -36,6 +49,12 @@ export default {
   p{
     font-family: $font-family-text;
     font-size: $font-size_text;
+  }
+
+  .footer-container{
+    .container {
+      padding: 0;
+    }
   }
 }
 </style>

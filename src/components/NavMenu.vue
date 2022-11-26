@@ -1,49 +1,106 @@
 <template>
-    <v-app-bar
-      app
-      color="primary"
-      dark
-      elevation="4"
-    >
-      <div class="d-flex align-center">
-        <v-img
-          alt="Vuetify Logo"
-          class="shrink mr-2"
-          contain
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
-          transition="scale-transition"
-          width="40"
-        />
+  <v-container fluid>
+    <v-row class="navMenu">
 
-        <v-img
-          alt="Vuetify Name"
-          class="shrink mt-1 hidden-sm-and-down"
-          contain
-          min-width="100"
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-name-dark.png"
-          width="100"
-        />
-      </div>
+      <v-col cols="1">
+        <FloatMenu />
+      </v-col>
 
-      <v-spacer></v-spacer>
+      <v-col cols="11">
+        <!-- Logo + MainIcons  -->
+        <v-row v-if="searching" align="center" justify="space-between" class="ml-4">
+          <v-toolbar-title>
+            <v-img class="logo" src="../../public/Marvel-Comics-Logo.png"></v-img>
+          </v-toolbar-title>
 
-      <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-        text
-      >
-        <span class="mr-2">Latest Release</span>
-        <v-icon>mdi-open-in-new</v-icon>
-      </v-btn>
-    </v-app-bar>
+          <v-spacer></v-spacer>
+
+          <v-btn-toggle :v-model="2">
+            <v-btn @click="toggleSearching" icon color="white">
+              <v-icon>mdi-magnify</v-icon>
+            </v-btn>
+
+            <v-btn icon color="white">
+              <v-icon>mdi-heart</v-icon>
+            </v-btn>
+
+            <v-btn icon color="white">
+              <v-icon>mdi-dots-vertical</v-icon>
+            </v-btn>
+          </v-btn-toggle>
+        </v-row>
+
+        <!-- Searching Area -->
+        <v-row v-else align="center" justify="space-between">
+          <v-col cols="10">
+            <v-toolbar-title>
+              <SearchBox />
+            </v-toolbar-title>
+          </v-col>
+
+          <v-col cols="2">
+            <v-btn-toggle :v-model="2">
+              <v-btn @click="toggleSearching" icon color="white">
+                <v-icon>mdi-magnify</v-icon>
+              </v-btn>
+            </v-btn-toggle>
+          </v-col>
+
+        </v-row>
+      </v-col>
+
+    </v-row>
+  </v-container>
 </template>
 
 <script>
+import SearchBox from './SearchBox.vue';
+import FloatMenu from './FloatMenu.vue';
+
 export default {
-    name: 'NavMenu'
+  name: "NavMenu",
+
+  data: () => ({
+    bars: [
+      { class: '' },
+      { class: '', dark: true },
+      { class: 'primary', dark: true },
+      { class: 'elevation-0' },
+    ],
+    searching: false,
+  }),
+
+  methods: {
+    toggleSearching() {
+      this.searching = !this.searching;
+    },
+  },
+
+  components: {
+    SearchBox,
+    FloatMenu
+  }
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+.logo {
+  height: 3.5rem;
+  width: 7.5rem;
+  opacity: .75;
+  border-radius: 6px;
+}
 
+.navMenu {
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.9px);
+  -webkit-backdrop-filter: blur(6.9px);
+  border: 1px solid rgba(255, 255, 255, 0.37);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
 </style>
