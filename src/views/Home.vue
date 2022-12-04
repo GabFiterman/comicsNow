@@ -49,7 +49,7 @@ export default {
 
     this.API_fetchType = 'characters';
     this.API_fetchFilter = 'nameStartsWith';
-    this.API_fetchParam = 'Hulk'
+    this.API_fetchParam = 'Ni'
   },
 
   mounted() {

@@ -41,8 +41,9 @@
                                             </v-list-item>
                                         </v-list-item-group>
                                     </v-list>
-                                    <!-- TODO: Linkar neste botão, o caminho para a página do herói -->
-                                    <v-btn elevation="2" class="mt-4 card-btn" target="_blank" href="#">See more</v-btn>
+                                    <router-link :to="`/characterPage/${getPageId(res.name)}`">
+                                        <v-btn elevation="2" class="mt-4 card-btn" target="_blank">See more</v-btn>
+                                    </router-link>
                                 </v-card-text>
                             </div>
                         </v-expand-transition>
@@ -82,8 +83,13 @@ export default {
                 let substring = `${splited[0].substring(0, 12)}...`
                 return substring;
             }
-
+            
             return splited[0];
+        },
+        getPageId(name){
+              let pageId = this.getName(name);
+              console.log(pageId.replace(/[^A-Z0-9]/ig, "_"))
+               return pageId.replace(/[^A-Z0-9]/ig, "_");
         },
     }
 
