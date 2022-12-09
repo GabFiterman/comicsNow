@@ -1,20 +1,20 @@
 <template>
   <v-app id="app">
-    <v-container fluid>
+    <v-container fluid class="px-0 py-0">
       <NavMenu />
     </v-container>
     <!-- <nav-menu /> -->
     <v-main>
-      <v-container fluid style="padding: 0">
+      <v-container fluid class="px-0 py-0">
         <router-view />
       </v-container>
     </v-main>
     
-    <div class="footer-container">
-      <v-container fluid>
+    <footer>
+      <v-container fluid class="px-0 py-0">
         <Footer />
       </v-container>
-    </div>
+    </footer>
 
   </v-app>
 </template>
@@ -49,12 +49,6 @@ export default {
   p{
     font-family: $font-family-text;
     font-size: $font-size_text;
-  }
-
-  .footer-container{
-    .container {
-      padding: 0;
-    }
   }
 }
 </style>

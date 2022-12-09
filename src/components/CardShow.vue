@@ -1,5 +1,5 @@
 <template>
-        <!-- TODO: Tornar este card mais genérico, para poder ser reutilizado não apenas pelos characters, mas por qualquer tipo de info -->
+    <!-- TODO: Tornar este card mais genérico, para poder ser reutilizado não apenas pelos characters, mas por qualquer tipo de info -->
     <v-row>
         <v-col cols="6" v-for="(res, index) in API_responses" :key="index">
             <v-hover v-slot="{ hover }">
@@ -35,7 +35,8 @@
                                             <v-list-item>
                                                 <v-list-item-content>
                                                     <v-list-item-title class="card-infoValue">
-                                                        <p>Stories:</p> <span class="">{{ res.stories.available }}</span>
+                                                        <p>Stories:</p> <span class="">{{ res.stories.available
+                                                        }}</span>
                                                     </v-list-item-title>
                                                 </v-list-item-content>
                                             </v-list-item>
@@ -83,13 +84,13 @@ export default {
                 let substring = `${splited[0].substring(0, 12)}...`
                 return substring;
             }
-            
+
             return splited[0];
         },
-        getPageId(name){
-              let pageId = this.getName(name);
-              console.log(pageId.replace(/[^A-Z0-9]/ig, "_"))
-               return pageId.replace(/[^A-Z0-9]/ig, "_");
+        getPageId(name) {
+            let pageId = this.getName(name);
+            console.log(pageId.replace(/[^A-Z0-9]/ig, "_"))
+            return pageId.replace(/[^A-Z0-9]/ig, "_");
         },
     }
 
@@ -98,6 +99,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+$small: 300px;
+$medium: 900px;
+
 .v-card--reveal {
     align-items: center;
     bottom: 0;
@@ -113,7 +117,7 @@ export default {
 
         h1 {
             font-weight: bold;
-            font-size: 1.2rem;
+            font-size: 1rem !important;
             letter-spacing: 0.15rem;
             line-height: 2.5rem;
         }
@@ -133,23 +137,35 @@ export default {
                 color: $color_main-lightest;
 
                 p {
-                    font-size: 1rem !important;
+                    font-size: .75rem !important;
                     padding: 0.25rem 0rem;
                     margin-bottom: 0;
+
+                    @media screen {
+                        @media (max-width: 320px) {
+                            font-size: .55rem !important;
+                        }
+                    }
                 }
 
                 span {
-                    font-size: 1.25rem;
+                    font-size: .9rem;
                     font-weight: bold;
                     background-color: $color_main;
-                    padding: 0.25rem 0.5rem;
+                    padding: 0.15rem 0.25rem;
                     border-radius: 5px;
+
+                    @media screen {
+                        @media (max-width: 320px) {
+                            font-size: .75rem !important;
+                        }
+                    }
                 }
 
             }
         }
 
-        .card-btn{
+        .card-btn {
             background-color: $color-main;
             color: white;
         }

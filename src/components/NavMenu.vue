@@ -31,18 +31,14 @@
         </v-row>
 
         <!-- Searching Area -->
-        <v-row v-else align="center" justify="space-between">
+        <v-row v-else class="navMenu__search">
           <v-col cols="10">
-            <v-toolbar-title>
               <SearchBox />
-            </v-toolbar-title>
           </v-col>
 
           <v-col cols="2">
             <v-btn-toggle :v-model="2">
-              <v-btn @click="toggleSearching" icon color="white">
-                <v-icon>mdi-magnify</v-icon>
-              </v-btn>
+              <v-icon @click="toggleSearching" class="navMenu__search-icon">mdi-magnify</v-icon>
             </v-btn-toggle>
           </v-col>
 
@@ -101,6 +97,16 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 15vh;
 
+  .navMenu__search {
+    display: flex;
+    align-items: center;
+
+    .navMenu__search-icon{
+      padding: .25rem;
+    }
+    
+  }
 }
 </style>

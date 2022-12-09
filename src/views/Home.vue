@@ -1,11 +1,11 @@
 <template>
   <v-col cols="12">
-    <v-row id="home">
-      <CardHero />
+    <v-row id="home" class="px-2 py-2">
+      <CardWelcome />
     </v-row>
 
     <!-- Card  -->
-    <v-row v-if="API_responses">
+    <v-row v-if="API_responses" class="px-2 mb-10">
       <CardShow :API_responses="API_responses" />
     </v-row>
   </v-col>
@@ -15,14 +15,14 @@
 // @ is an alias to /src
 import axios from 'axios';
 import CardShow from '@/components/CardShow.vue';
-import CardHero from '@/components/CardHero.vue';
+import CardWelcome from '@/components/CardWelcome.vue';
 
 export default {
   name: 'Home',
 
   components: {
     CardShow,
-    CardHero,
+    CardWelcome,
   },
 
   data() {

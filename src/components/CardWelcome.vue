@@ -1,9 +1,9 @@
 <template>
-  <v-card class="card-hero mx-auto mb-10">
+  <v-card class="card-hero mx-auto mb-10 mt-8">
         <v-img alt="Comics Now" src="../../public/ComicsNow_Lettering.png"></v-img>
 
-        <v-card-subtitle class="card-text px-10 pb-5">
-          <p>Welcome to Comics Now, here you can search for your favorite Marvel heroes, comics and series.</p>
+        <v-card-subtitle class="card-text px-10 pb-5 mt-6">
+          <p>{{ welcomeText }}</p>
           <br />
           <p>
             <v-btn class="card-button" rounded><router-link to="/">Login</router-link></v-btn>
@@ -19,6 +19,13 @@
 <script>
 export default {
     name: 'CardHero',
+
+    data() {
+      return {
+        welcomeText: 'Welcome to Comics Now, here you can search for your favorite Marvel heroes, comics and series.',
+
+      }
+    }
 }
 </script>
 
@@ -36,7 +43,7 @@ export default {
         p{
         font-size: 1.10rem !important;
         color: white;
-        text-align: justify;
+        text-align: center;
         line-height: 2rem;
       }
     }

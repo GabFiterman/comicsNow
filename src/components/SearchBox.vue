@@ -1,11 +1,11 @@
 <template>
     <v-container fluid>
-        <v-row>
-            <v-col cols="11">
+        <v-row style="height: 10vh;">
+            <v-col cols="10">
                 <input class="SearchBox-input" placeholder="Searching for Characters" />
             </v-col>
 
-            <v-col cols="1">
+            <v-col cols="2">
                 <search-type />
             </v-col>
         </v-row>
