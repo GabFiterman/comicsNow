@@ -5,7 +5,7 @@
     </v-container>
     <!-- <nav-menu /> -->
     <v-main>
-      <v-container fluid>
+      <v-container fluid style="padding: 0">
         <router-view />
       </v-container>
     </v-main>
