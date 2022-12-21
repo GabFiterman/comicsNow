@@ -10,7 +10,9 @@
         <!-- Logo + MainIcons  -->
         <v-row v-if="searching" align="center" justify="space-between" class="ml-4">
           <v-toolbar-title>
-            <v-img class="logo" src="../../public/Marvel-Comics-Logo.png"></v-img>
+            <router-link to="/">
+              <v-img class="logo" src="../../public/Marvel-Comics-Logo.png"></v-img>
+            </router-link>
           </v-toolbar-title>
 
           <v-spacer></v-spacer>
@@ -20,9 +22,11 @@
               <v-icon>mdi-magnify</v-icon>
             </v-btn>
 
-            <v-btn icon color="white">
-              <v-icon>mdi-heart</v-icon>
-            </v-btn>
+            <router-link to="/CustomEvents">
+              <v-btn icon color="white">
+                <v-icon>mdi-heart</v-icon>
+              </v-btn>
+            </router-link>
 
             <v-btn icon color="white">
               <v-icon>mdi-dots-vertical</v-icon>
